@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DC499718F9633700BA7402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499618F9633700BA7402 /* Foundation.framework */; };
+		02DC499918F9633700BA7402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499818F9633700BA7402 /* CoreGraphics.framework */; };
+		02DC499B18F9633700BA7402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499A18F9633700BA7402 /* UIKit.framework */; };
+		02DC499D18F9633700BA7402 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499C18F9633700BA7402 /* CoreData.framework */; };
+		02DC49A318F9633700BA7402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02DC49A118F9633700BA7402 /* InfoPlist.strings */; };
+		02DC49A518F9633700BA7402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DC49A418F9633700BA7402 /* main.m */; };
+		02DC49A918F9633700BA7402 /* OTKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DC49A818F9633700BA7402 /* OTKAppDelegate.m */; };
+		02DC49AC18F9633700BA7402 /* MyAccountBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02DC49AA18F9633700BA7402 /* MyAccountBook.xcdatamodeld */; };
+		02DC49AE18F9633700BA7402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02DC49AD18F9633700BA7402 /* Images.xcassets */; };
+		02DC49B518F9633700BA7402 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC49B418F9633700BA7402 /* XCTest.framework */; };
+		02DC49B618F9633700BA7402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499618F9633700BA7402 /* Foundation.framework */; };
+		02DC49B718F9633700BA7402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499A18F9633700BA7402 /* UIKit.framework */; };
+		02DC49B818F9633700BA7402 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DC499C18F9633700BA7402 /* CoreData.framework */; };
+		02DC49C018F9633700BA7402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02DC49BE18F9633700BA7402 /* InfoPlist.strings */; };
+		02DC49C218F9633700BA7402 /* MyAccountBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02DC49C118F9633700BA7402 /* MyAccountBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02DC49B918F9633700BA7402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02DC498B18F9633700BA7402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02DC499218F9633700BA7402;
+			remoteInfo = MyAccountBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02DC499318F9633700BA7402 /* MyAccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DC499618F9633700BA7402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02DC499818F9633700BA7402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02DC499A18F9633700BA7402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02DC499C18F9633700BA7402 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02DC49A018F9633700BA7402 /* MyAccountBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAccountBook-Info.plist"; sourceTree = "<group>"; };
+		02DC49A218F9633700BA7402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02DC49A418F9633700BA7402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02DC49A618F9633700BA7402 /* MyAccountBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyAccountBook-Prefix.pch"; sourceTree = "<group>"; };
+		02DC49A718F9633700BA7402 /* OTKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTKAppDelegate.h; sourceTree = "<group>"; };
+		02DC49A818F9633700BA7402 /* OTKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTKAppDelegate.m; sourceTree = "<group>"; };
+		02DC49AB18F9633700BA7402 /* MyAccountBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyAccountBook.xcdatamodel; sourceTree = "<group>"; };
+		02DC49AD18F9633700BA7402 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02DC49B318F9633700BA7402 /* MyAccountBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAccountBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02DC49B418F9633700BA7402 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		02DC49BD18F9633700BA7402 /* MyAccountBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyAccountBookTests-Info.plist"; sourceTree = "<group>"; };
+		02DC49BF18F9633700BA7402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02DC49C118F9633700BA7402 /* MyAccountBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAccountBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DC499018F9633700BA7402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC499918F9633700BA7402 /* CoreGraphics.framework in Frameworks */,
+				02DC499D18F9633700BA7402 /* CoreData.framework in Frameworks */,
+				02DC499B18F9633700BA7402 /* UIKit.framework in Frameworks */,
+				02DC499718F9633700BA7402 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DC49B018F9633700BA7402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC49B518F9633700BA7402 /* XCTest.framework in Frameworks */,
+				02DC49B818F9633700BA7402 /* CoreData.framework in Frameworks */,
+				02DC49B718F9633700BA7402 /* UIKit.framework in Frameworks */,
+				02DC49B618F9633700BA7402 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DC498A18F9633700BA7402 = {
+			isa = PBXGroup;
+			children = (
+				02DC499E18F9633700BA7402 /* MyAccountBook */,
+				02DC49BB18F9633700BA7402 /* MyAccountBookTests */,
+				02DC499518F9633700BA7402 /* Frameworks */,
+				02DC499418F9633700BA7402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02DC499418F9633700BA7402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02DC499318F9633700BA7402 /* MyAccountBook.app */,
+				02DC49B318F9633700BA7402 /* MyAccountBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02DC499518F9633700BA7402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02DC499618F9633700BA7402 /* Foundation.framework */,
+				02DC499818F9633700BA7402 /* CoreGraphics.framework */,
+				02DC499A18F9633700BA7402 /* UIKit.framework */,
+				02DC499C18F9633700BA7402 /* CoreData.framework */,
+				02DC49B418F9633700BA7402 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02DC499E18F9633700BA7402 /* MyAccountBook */ = {
+			isa = PBXGroup;
+			children = (
+				02DC49A718F9633700BA7402 /* OTKAppDelegate.h */,
+				02DC49A818F9633700BA7402 /* OTKAppDelegate.m */,
+				02DC49AD18F9633700BA7402 /* Images.xcassets */,
+				02DC49AA18F9633700BA7402 /* MyAccountBook.xcdatamodeld */,
+				02DC499F18F9633700BA7402 /* Supporting Files */,
+			);
+			path = MyAccountBook;
+			sourceTree = "<group>";
+		};
+		02DC499F18F9633700BA7402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DC49A018F9633700BA7402 /* MyAccountBook-Info.plist */,
+				02DC49A118F9633700BA7402 /* InfoPlist.strings */,
+				02DC49A418F9633700BA7402 /* main.m */,
+				02DC49A618F9633700BA7402 /* MyAccountBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02DC49BB18F9633700BA7402 /* MyAccountBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				02DC49C118F9633700BA7402 /* MyAccountBookTests.m */,
+				02DC49BC18F9633700BA7402 /* Supporting Files */,
+			);
+			path = MyAccountBookTests;
+			sourceTree = "<group>";
+		};
+		02DC49BC18F9633700BA7402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02DC49BD18F9633700BA7402 /* MyAccountBookTests-Info.plist */,
+				02DC49BE18F9633700BA7402 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02DC499218F9633700BA7402 /* MyAccountBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DC49C518F9633700BA7402 /* Build configuration list for PBXNativeTarget "MyAccountBook" */;
+			buildPhases = (
+				02DC498F18F9633700BA7402 /* Sources */,
+				02DC499018F9633700BA7402 /* Frameworks */,
+				02DC499118F9633700BA7402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyAccountBook;
+			productName = MyAccountBook;
+			productReference = 02DC499318F9633700BA7402 /* MyAccountBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02DC49B218F9633700BA7402 /* MyAccountBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02DC49C818F9633700BA7402 /* Build configuration list for PBXNativeTarget "MyAccountBookTests" */;
+			buildPhases = (
+				02DC49AF18F9633700BA7402 /* Sources */,
+				02DC49B018F9633700BA7402 /* Frameworks */,
+				02DC49B118F9633700BA7402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02DC49BA18F9633700BA7402 /* PBXTargetDependency */,
+			);
+			name = MyAccountBookTests;
+			productName = MyAccountBookTests;
+			productReference = 02DC49B318F9633700BA7402 /* MyAccountBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02DC498B18F9633700BA7402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OTK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hiromasa Kato";
+				TargetAttributes = {
+					02DC49B218F9633700BA7402 = {
+						TestTargetID = 02DC499218F9633700BA7402;
+					};
+				};
+			};
+			buildConfigurationList = 02DC498E18F9633700BA7402 /* Build configuration list for PBXProject "MyAccountBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02DC498A18F9633700BA7402;
+			productRefGroup = 02DC499418F9633700BA7402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02DC499218F9633700BA7402 /* MyAccountBook */,
+				02DC49B218F9633700BA7402 /* MyAccountBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02DC499118F9633700BA7402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC49A318F9633700BA7402 /* InfoPlist.strings in Resources */,
+				02DC49AE18F9633700BA7402 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DC49B118F9633700BA7402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC49C018F9633700BA7402 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DC498F18F9633700BA7402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC49A518F9633700BA7402 /* main.m in Sources */,
+				02DC49A918F9633700BA7402 /* OTKAppDelegate.m in Sources */,
+				02DC49AC18F9633700BA7402 /* MyAccountBook.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02DC49AF18F9633700BA7402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DC49C218F9633700BA7402 /* MyAccountBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02DC49BA18F9633700BA7402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02DC499218F9633700BA7402 /* MyAccountBook */;
+			targetProxy = 02DC49B918F9633700BA7402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02DC49A118F9633700BA7402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02DC49A218F9633700BA7402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02DC49BE18F9633700BA7402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02DC49BF18F9633700BA7402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02DC49C318F9633700BA7402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02DC49C418F9633700BA7402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02DC49C618F9633700BA7402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAccountBook/MyAccountBook-Prefix.pch";
+				INFOPLIST_FILE = "MyAccountBook/MyAccountBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02DC49C718F9633700BA7402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAccountBook/MyAccountBook-Prefix.pch";
+				INFOPLIST_FILE = "MyAccountBook/MyAccountBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		02DC49C918F9633700BA7402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAccountBook.app/MyAccountBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAccountBook/MyAccountBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyAccountBookTests/MyAccountBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		02DC49CA18F9633700BA7402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyAccountBook.app/MyAccountBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyAccountBook/MyAccountBook-Prefix.pch";
+				INFOPLIST_FILE = "MyAccountBookTests/MyAccountBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02DC498E18F9633700BA7402 /* Build configuration list for PBXProject "MyAccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DC49C318F9633700BA7402 /* Debug */,
+				02DC49C418F9633700BA7402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02DC49C518F9633700BA7402 /* Build configuration list for PBXNativeTarget "MyAccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DC49C618F9633700BA7402 /* Debug */,
+				02DC49C718F9633700BA7402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02DC49C818F9633700BA7402 /* Build configuration list for PBXNativeTarget "MyAccountBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02DC49C918F9633700BA7402 /* Debug */,
+				02DC49CA18F9633700BA7402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02DC49AA18F9633700BA7402 /* MyAccountBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02DC49AB18F9633700BA7402 /* MyAccountBook.xcdatamodel */,
+			);
+			currentVersion = 02DC49AB18F9633700BA7402 /* MyAccountBook.xcdatamodel */;
+			path = MyAccountBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02DC498B18F9633700BA7402 /* Project object */;
+}
