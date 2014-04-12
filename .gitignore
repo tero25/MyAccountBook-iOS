@@ -21,3 +21,6 @@ DerivedData
 #CocoaPod
 Pods/*
 Podfile.lock
+Gemfile.lock
+.bundle
+/vendor
