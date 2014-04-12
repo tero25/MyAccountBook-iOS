@@ -3,12 +3,14 @@
 
 Account book
 
-# requirements
+# Requirements
 
-- Ruby
+- Mac OS
+- Xcode 5.1
+- Ruby 2.0
   - bundler
 
-# installation
+# Installation
 
 ## Install dependencies
 ````
