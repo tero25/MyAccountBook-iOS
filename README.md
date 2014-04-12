@@ -6,7 +6,7 @@ Account book
 # requirements
 
 - Ruby
--- bundler
+  - bundler
 
 # installation
 
