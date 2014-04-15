@@ -5,7 +5,7 @@ Account book
 
 # Requirements
 
-- Mac OS
+- Mac OS X
 - Xcode 5.1
 - Ruby 2.0
   - bundler
